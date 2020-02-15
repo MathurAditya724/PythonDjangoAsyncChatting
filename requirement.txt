@@ -1,0 +1,4 @@
+Django==2.2
+channels==2.2.0
+channels-redis==2.4.0
+django-crispy-forms==1.7.2
