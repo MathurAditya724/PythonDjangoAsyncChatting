@@ -4,19 +4,19 @@ Here using Python and Django, I have created a Chatting Application. For achievi
 
 ## Getting Started
 
-For starting the project, Fisrt create a virtual enviroment for the python Lib's in the *requirement.txt* file.
+For starting the project, First, create a virtual environment for the python Lib's in the *requirement.txt* file.
 
 ``` cmd
 python -m venv ./venv
 ```
 
-*Activate* the virtual enviroment and download the required Lib's.
+*Activate* the virtual environment and download the required Lib's.
 
 ``` cmd
 pip install -r requirement.txt
 ```
 
-Before going any futher, just create a sqlite file in the *fastfood* folder and then *cd* into the folder and simply migrate and create the super user in the database using Django.
+Before going any further, just create an SQLite file in the *current* folder and then *cd* into the folder and simply migrate and create the superuser in the database using Django.
 And after doing this setup, run the server.
 
 ``` cmd
@@ -28,7 +28,7 @@ python manage.py runserver
 
 ## Basic Setup
 
-Just goto <http://localhost:8000/admin> and Log in with your username and password that you have created in the createsuperuser part. Start creating some users and you will start seeing them in your list, Select them and start chatting.
+Just go to <http://localhost:8000/admin> and Log in with your username and password that you have created in the createsuperuser part. Start creating some users and you will start seeing them in your list, select them and start chatting.
 
 You will be required to install Reddis database on your computer for this to work.
 
@@ -38,7 +38,7 @@ You will be required to install Reddis database on your computer for this to wor
 - Django - For creating the server
 - Reddis - In-memory data structure store
 - Channels - To handle WebSockets
-- django-crispy-forms
+- Django-crispy-forms
 
 ## Authors
 
